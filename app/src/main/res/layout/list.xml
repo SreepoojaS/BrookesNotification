@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#03A9F4">
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="88dp"
+            android:layout_height="19dp"
+            android:text="ACTIVE"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="74dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="88dp"
+            android:layout_height="19dp"
+            android:text="ACTIVE"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="130dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="88dp"
+            android:layout_height="19dp"
+            android:text="ACTIVE"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="88dp"
+            android:layout_height="19dp"
+            android:text="ACTIVE"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="356dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="135dp"
+            android:layout_height="20dp"
+            android:text="Steph Harrison"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="355dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="135dp"
+            android:layout_height="20dp"
+            android:text="Mary Stevenson"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="297dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="135dp"
+            android:layout_height="20dp"
+            android:text="Stuart Clark"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="240dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="135dp"
+            android:layout_height="20dp"
+            android:text="Jack Grealish"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="135dp"
+            android:layout_height="20dp"
+            android:text="Richard Davidson"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="130dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STUDENTS ONLINE"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="135dp"
+            android:layout_height="20dp"
+            android:text="Jennifer Madison"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="88dp"
+            android:layout_height="19dp"
+            android:text="ACTIVE"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="88dp"
+            android:layout_height="19dp"
+            android:text="ACTIVE"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="241dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "561545921514",
+    "project_id": "brookes-notification",
+    "storage_bucket": "brookes-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561545921514:android:8e3d1b18f4f910bb27a893",
+        "android_client_info": {
+          "package_name": "com.example.brookesnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561545921514-f55d1heknu671vqbhaho1mnum2hg4u7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSh0o-C3251tGdHAkw2a38yJknvHeAd3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561545921514-f55d1heknu671vqbhaho1mnum2hg4u7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

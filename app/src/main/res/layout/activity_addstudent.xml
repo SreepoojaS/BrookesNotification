@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Addstudent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="serif-monospace"
+        android:text="Enter Full Name"
+        android:textAlignment="viewStart"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/studentname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:foregroundTint="#DDC6C6"
+        android:inputType="textPersonName"
+        android:text="Full Name"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="serif-monospace"
+        android:text="Gauardian's Name"
+        android:textAlignment="viewStart"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/guardianName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:foregroundTint="#DDC6C6"
+        android:inputType="textPersonName"
+        android:text="Full Name of the legal guardian"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="serif-monospace"
+        android:text="Date of Birth"
+        android:textAlignment="viewStart"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/DOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:foregroundTint="#DDC6C6"
+        android:inputType="date"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="serif-monospace"
+        android:text="Adsress"
+        android:textAlignment="viewStart"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:foregroundTint="#DDC6C6"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="serif-monospace"
+        android:text="Your Department"
+        android:textAlignment="viewStart"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/departmanet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:foregroundTint="#DDC6C6"
+        android:inputType="textPersonName"
+        android:text="Department Name"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Course7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="serif-monospace"
+        android:text="Your Course"
+        android:textAlignment="viewStart"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:foregroundTint="#DDC6C6"
+        android:inputType="textPersonName"
+        android:text="Course Name"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/addstudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add NEw Student Details" />
+</LinearLayout>
